@@ -1,2 +1,139 @@
-# COMANDOS-DE-LINUX
-Comandos de lINUX
+#1.- COMANDOS-DE-LINUX
+Comandos de Linux  
+# **sudo**  
+Cuando queramos hacer cambios como administrador.  
+(Este comando nos confiere permisos de administrador del sistema y nos solicita siempre nuestra contraseña para poder ejecutarse. El comando sudo siempre inicia la linea de comandos a ejecutar.)  
+
+#**apt**  
+(Advance Packagin Tool) es una herramienta de empaquetado de aplicaciones creada por el proyecto Debian, para simplificar la instalación y desinstalación de programas en Linux.
+
+#**sudo apt-get update**  
+Para leer los ficheros  
+(Cada vez que deseemos comprobar actualizaciones usaremos el comando sudo apt-get update. Para que el sistema pueda obtener los paquetes que este contiene, antes de poder instalarlos.)
+
+#**sudo apt-get upgrade**  
+Para actualizar ficheros  
+(Actualizar todos nuestros programas a sus últimas versiones, e instalar las actualizaciones del sistema de manera fácil y rápida, usamos el comando upgrade.)
+
+#**sudo apt-get install**  
+Para instalar un programa. 
+(sudo apt-get install apache2) 
+
+#**sudo apt-get remove**  
+Para desinstalar un programa.  
+
+#**sudo rm**      
+Es el comando necesario para borrar un archivo o directorio. Para borrar el archivo prueba.txt ubicado en /home, ejecutamos: $ rm /home/prueba.txt  
+Este comando también presenta varias opciones. La opción -R borra todos los archivos y directorios de forma recursiva. Por otra parte, -f borra todo sin pedir confirmación.   
+
+sudo rmdir -R nombre del directorio
+
+#**sudo mkdir**  
+Para crear un directorio.  
+(mkdir dir1: crear una carpeta o directorio con nombre ‘dir1′). 
+Crea un directorio nuevo tomando en cuenta la ubicación actual. Por ejemplo, si estas en /home y deseas crear el directorio ejercicios, sería: $ mkdir /home/ejercicios  
+
+#**mkdir -p**  
+Mkdir tiene una opción bastante útil que permite crear un árbol de directorios completo que no existe. Para eso usamos la opción -p: $ mkdir -p /home/ejercicios/prueba/uno/dos/tres 
+
+#**mv dir**  
+Renombrar o mover un fichero o carpeta (directorio).  
+mueve un archivo a una ruta específica, y a diferencia de cp, lo elimina del origen finalizada la operación. Por ejemplo:$ mv /home/prueba.txt /home/respaldos/prueba2.txt  
+Al igual que cp, en la sintaxis se especifica primero el origen y luego el destino. Si indicamos un nombre de destino diferente, mv moverá el archivo o directorio con el nuevo nombre.  
+
+#**sudo reboot**  
+Reiniciar.  
+
+#**sudo tasksel**  
+Instala tareas de paquetes.  
+Una que viene predefinida es la de servidor LAMP. tasksel nos ayuda a instalar un servidor LAMP en Ubuntu facilmente.  
+
+#**cp**  
+copia un archivo o directorio origen a un archivo o directorio destino.  
+Por ejemplo, para copiar el archivo prueba.txt ubicado en /home a un directorio de respaldo, podemos usar:  
+$ cp /home/prueba.txt /home/respaldo/prueba.txt  
+En la sintaxis siempre se especifica primero el origen y luego el destino. Si indicamos un nombre de destino diferente, cp copiará el archivo o directorio con el nuevo nombre.  
+
+#**cp -r**  
+
+Con la opción -r copia no sólo el directorio especificado sino todos sus directorios internos de forma recursiva.   
+Suponiendo que deseamos hacer una copia del directorio /home/ejercicios que a su vez tiene las carpetas ejercicio1 y ejercicio2 en su interior, en lugar de ejecutar un comando para cada carpeta, ejecutamos:  
+$ cp -r /home/ejercicios /home/respaldos/
+
+#**cp file1**  
+Copiar un fichero. 
+
+#**cp dir /* .**  
+Copiar todos los ficheros de un directorio dentro del directorio de trabajo actual.  
+
+#**find / -name file1**  
+Buscar fichero y directorio a partir de la raíz del sistema.  
+
+#**passwd**  
+Cambiar contraseña.  
+
+#**ifconfig**  
+Para visualizar la IP de mi equipo. 
+
+#**iwconfig**  
+Para saber la IP del Wifi
+
+#**nano**  
+Para usar un editor de texto.  
+Para escribir en una web que tenemos situada en HTML  
+cd /var/www/html  
+ls  
+index.html  
+sudo nano index.html   
+  
+#**ls**  
+Para listar ficheros.  
+(Ver los ficheros de un directorio). 
+
+#**clear**  
+Para limpiar pantalla  
+
+#**pwd**  
+Me indica donde estoy desde la raíz (/). 
+(Mostrar el camino del directorio de trabajo). 
+
+#**cat**  
+Para ver los contenidos de un fichero.  
+Cat (de concatenar), es una utilidad que nos permite visualizar el contenido de un archivo de texto sin la necesidad de un editor. Para utilizarlo solo debemos mencionarlo junto al archivo que deseamos visualizar:
+$ cat prueba.txt  
+
+#**cd**   
+Ir al directorio raíz.  
+Nos permite cambiar de directorio en la terminal. 
+cd seguido de una ruta, se usa para ubicarse en un directorio especifico.(Pe. cd /documentos).    
+
+#**cd ..**  
+Éste cambiará al directorio superior desde el directorio actual (retroceder un nivel).    
+
+#**cd ~user**  
+Éste comando irá al directorio de inicio del usuario que es "/home/username".  
+(Ctrl X cuando queremos ir a nuestro usuario mariel@mariel:$)      
+
+#**cd -**  
+Ir (regresar) al directorio anterior.  
+
+#**touch**  
+Crea un archivo vacío, si el archivo existe actualiza la hora de modificación.  
+Para crear el archivo prueba1.txt en /home, seria: $ touch /home/prueba1.txt  
+
+#**whois www.example.com**  
+Buscar en base de datos Whois. Para averiguar datos de alguien.  
+
+#**cd /var** ENTER **ls**  
+Si no aparece www es que no tenemos Apache instalado. 
+
+#**sudo cp -r wordpress/ /var/www/html/**
+(-r quiere decir recursivo, desde donde le decimos hasta abajo, todos los archivos inferiores)
+Copiar un archivo de una carpeta a otra
+
+#**sudo chmod 777 NO USARLO NUNCA**, abriríamos nuestro servidor a cualquiera.
+sudo chmod 777 -R /var/www/html/wordpress/  
+
+
+
+
