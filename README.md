@@ -88,7 +88,30 @@ sudo nano index.html
   
 #**ls**  
 Para listar ficheros.  
-(Ver los ficheros de un directorio). 
+(Ver los ficheros de un directorio).   
+
+#**ls -l /**  
+
+nos lista todos los archivos desde la raíz (estemos en el directorio que sea).  
+
+ls es el comando, -l es la opción. 
+
+ls -l /var/www/html  -- nos listaría los ficheros que haya en HTML  
+
+Para ver los archivos que tenemos desde la raíz (root /) ejecutar los comandos:
+
+ls -l / 
+
+![](http://grabilla.com/0511c-5789affd-af8d-42fe-bf51-9fbaa5b9b168.png)  
+
+
+#**ls -la** sirve para que nos liste con más información.
+
+
+![](http://grabilla.com/0511c-d5044934-fdd3-4652-abd9-21549344509b.png)  
+
+El archivo con .. es el padre.  
+El que tiene . soy yo mismo.
 
 #**clear**  
 Para limpiar pantalla  
