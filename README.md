@@ -85,7 +85,7 @@ cd /var/www/html
 ls  
 index.html  
 sudo nano index.html   
-  
+
 #**ls**  
 Para listar ficheros.  
 (Ver los ficheros de un directorio).   
@@ -112,6 +112,11 @@ ls -l /
 
 El archivo con .. es el padre.  
 El que tiene . soy yo mismo.
+
+#**ls *txt**  
+
+Para hacer una búsqueda de cualquier fichero que termine en txt  
+
 
 #**clear**  
 Para limpiar pantalla  
@@ -143,6 +148,17 @@ Ir (regresar) al directorio anterior.
 #**touch**  
 Crea un archivo vacío, si el archivo existe actualiza la hora de modificación.  
 Para crear el archivo prueba1.txt en /home, seria: $ touch /home/prueba1.txt  
+
+#**script**  
+Es un archivo que contiene varios comandos.  
+Suele terminar en .sh  
+La secuencia para crearlo es la siguiente:  
+cd (para ir al directorio donde queremos crearlo)  
+nano nombredelarchivo.sh  
+#!bin/bash (guardar y salir)  
+Para ejecutarlo: 
+chmod +x nombredelarchivo  
+./nombredelarchivo
 
 #**whois www.example.com**  
 Buscar en base de datos Whois. Para averiguar datos de alguien.  
