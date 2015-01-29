@@ -155,10 +155,11 @@ Suele terminar en .sh
 La secuencia para crearlo es la siguiente:  
 cd (para ir al directorio donde queremos crearlo)  
 nano nombredelarchivo.sh  
-#!bin/bash (guardar y salir)  
+ #!/bin/bash (guardar y salir)  
 Para ejecutarlo: 
 chmod +x nombredelarchivo  
 ./nombredelarchivo
+Para poder listarlo y ver que esté.  
 
 #**whois www.example.com**  
 Buscar en base de datos Whois. Para averiguar datos de alguien.  
