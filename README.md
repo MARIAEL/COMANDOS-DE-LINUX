@@ -158,7 +158,7 @@ nano nombredelarchivo.sh
  #!/bin/bash (guardar y salir)  
 Para ejecutarlo: 
 chmod +x nombredelarchivo  
-./nombredelarchivo
+./nombredelarchivo  
 Para poder listarlo y ver que esté.  
 
 #**whois www.example.com**  
