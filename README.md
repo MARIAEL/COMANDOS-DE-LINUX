@@ -174,6 +174,7 @@ Copiar un archivo de una carpeta a otra
 #**sudo chmod 777 NO USARLO NUNCA**, abriríamos nuestro servidor a cualquiera.
 sudo chmod 777 -R /var/www/html/wordpress/  
 
-
+#**wget**   
+Seguido de  (espacio) una dirección https desde la carpeta home y nos copia todo lo que contenga esa página.  
 
 
