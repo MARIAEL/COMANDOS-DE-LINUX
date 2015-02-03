@@ -36,10 +36,16 @@ Crea un directorio nuevo tomando en cuenta la ubicación actual. Por ejemplo, si
 #**mkdir -p**  
 Mkdir tiene una opción bastante útil que permite crear un árbol de directorios completo que no existe. Para eso usamos la opción -p: $ mkdir -p /home/ejercicios/prueba/uno/dos/tres 
 
+#**mkdir -p pt7/peliculas**  
+Crea un directorio y otro que cuelga del primero.  
+
 #**mv dir**  
 Renombrar o mover un fichero o carpeta (directorio).  
 mueve un archivo a una ruta específica, y a diferencia de cp, lo elimina del origen finalizada la operación. Por ejemplo:$ mv /home/prueba.txt /home/respaldos/prueba2.txt  
 Al igual que cp, en la sintaxis se especifica primero el origen y luego el destino. Si indicamos un nombre de destino diferente, mv moverá el archivo o directorio con el nuevo nombre.  
+
+#**rmdir p1 p2**  
+Borra varios directorios  
 
 #**sudo reboot**  
 Reiniciar.  
@@ -47,6 +53,12 @@ Reiniciar.
 #**sudo tasksel**  
 Instala tareas de paquetes.  
 Una que viene predefinida es la de servidor LAMP. tasksel nos ayuda a instalar un servidor LAMP en Ubuntu facilmente.  
+
+#**sudo su**
+Todo lo que hagamos a continuación será como super usuarios.  
+
+#**exit**  
+Para volver a ser usuario normal   
 
 #**cp**  
 copia un archivo o directorio origen a un archivo o directorio destino.  
@@ -117,6 +129,20 @@ El que tiene . soy yo mismo.
 
 Para hacer una búsqueda de cualquier fichero que termine en txt  
 
+#**ls -l**  
+nos muestra lo que contiene un directorio  
+
+#**ls -la**    
+nos muestra también los archivos ocultos del directorio  
+
+#**ls -F**  
+Lista los ficheros que contiene un directorio y nos informa de qué tipo son: ejecutables (*), directorios, archivos normales (.txt) 
+
+#**ls /bin**  
+Nos lista todos los comandos de Linux   
+
+#**ls |more**  
+Para que cuando liste los ficheros se pare a golpes de pantalla.  
 
 #**clear**  
 Para limpiar pantalla  
@@ -136,7 +162,11 @@ Nos permite cambiar de directorio en la terminal.
 cd seguido de una ruta, se usa para ubicarse en un directorio especifico.(Pe. cd /documentos).    
 
 #**cd ..**  
-Éste cambiará al directorio superior desde el directorio actual (retroceder un nivel).    
+Éste cambiará al directorio superior desde el directorio actual (retroceder un nivel). 
+
+#**cd ../../etc**  
+Es una ruta relativa.  
+Sirve para llegar donde queramos subiendo varios niveles. 
 
 #**cd ~user**  
 Éste comando irá al directorio de inicio del usuario que es "/home/username".  
@@ -177,61 +207,23 @@ sudo chmod 777 -R /var/www/html/wordpress/
 #**wget**   
 Seguido de  (espacio) una dirección https desde la carpeta home y nos copia todo lo que contenga esa página.  
 
-#CTRL + ALT GR Y F1-F6  
-
+#**CTRL + ALT GR Y F1-F6**  
 Nos permite crear usuarios desde la terminal de Guadalinex  
 
 Desde el entorno gráfico también podemos abrir un terminal: botón dr. ratón ABRIR UN TERMINAL  
 
-ALT GR + 4  
-
+#**ALT GR + 4**  
 Para generar este carácter ~  
 
-#sudo su
-Todo lo que hagamos a continuación será como super usuarios.  
-
-#exit  
-Para volver a ser usuario normal 
-
-#ls -l  
-nos muestra lo que contiene un directorio  
-
-#ls -la  
-nos muestra también los archivos ocultos del directorio  
-
-#cat  
-nos muestra lo que contiene un archivo.  
-
-#cd ../../etc  
-Es una ruta relativa.  
-Sirve para llegar donde queramos subiendo varios niveles.  
-
-#Uso de caracteres recomendados  
+#**Uso de caracteres recomendados**  
 
 A-Z  
 a-z  
 0-9  
 _  
 
-#ls -F  
-Lista los ficheros que contiene un directorio y nos informa de qué tipo son: ejecutables (*), directorios, archivos normales (.txt)  
-
-#mkdir -p pt7/peliculas  
-Crea un directorio y otro que cuelga del primero.  
-
-#Touch  
-Crea ficheros  
-
-#rmdir p1 p2  
-Borra varios directorios  
-
-#Para ver los comandos de un tipo pe. rm  
+#**Para ver los comandos de un tipo pe. rm**   
 Escribimos rm y pulsamos dos veces el tabulador, nos aparecerán todos los que haya de ese tipo:  
 rm  rmdir  rmid  rmmod  
 
-#ls /bin  
-Nos lista todos los comandos de Linux   
-
-#ls |more  
-Para que cuando liste los ficheros se pare a golpes de pantalla.  
 
