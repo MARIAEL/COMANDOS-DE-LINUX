@@ -177,4 +177,61 @@ sudo chmod 777 -R /var/www/html/wordpress/
 #**wget**   
 Seguido de  (espacio) una dirección https desde la carpeta home y nos copia todo lo que contenga esa página.  
 
+#CTRL + ALT GR Y F1-F6  
+
+Nos permite crear usuarios desde la terminal de Guadalinex  
+
+Desde el entorno gráfico también podemos abrir un terminal: botón dr. ratón ABRIR UN TERMINAL  
+
+ALT GR + 4  
+
+Para generar este carácter ~  
+
+#sudo su
+Todo lo que hagamos a continuación será como super usuarios.  
+
+#exit  
+Para volver a ser usuario normal 
+
+#ls -l  
+nos muestra lo que contiene un directorio  
+
+#ls -la  
+nos muestra también los archivos ocultos del directorio  
+
+#cat  
+nos muestra lo que contiene un archivo.  
+
+#cd ../../etc  
+Es una ruta relativa.  
+Sirve para llegar donde queramos subiendo varios niveles.  
+
+#Uso de caracteres recomendados  
+
+A-Z  
+a-z  
+0-9  
+_  
+
+#ls -F  
+Lista los ficheros que contiene un directorio y nos informa de qué tipo son: ejecutables (*), directorios, archivos normales (.txt)  
+
+#mkdir -p pt7/peliculas  
+Crea un directorio y otro que cuelga del primero.  
+
+#Touch  
+Crea ficheros  
+
+#rmdir p1 p2  
+Borra varios directorios  
+
+#Para ver los comandos de un tipo pe. rm  
+Escribimos rm y pulsamos dos veces el tabulador, nos aparecerán todos los que haya de ese tipo:  
+rm  rmdir  rmid  rmmod  
+
+#ls /bin  
+Nos lista todos los comandos de Linux   
+
+#ls |more  
+Para que cuando liste los ficheros se pare a golpes de pantalla.  
 
