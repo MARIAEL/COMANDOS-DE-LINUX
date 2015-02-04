@@ -29,7 +29,11 @@ Para instalar un programa.
 Para desinstalar un programa.  
 
 #**sudo rm**      
-Es el comando necesario para borrar un archivo o directorio. Para borrar el archivo prueba.txt ubicado en /home, ejecutamos: $ rm /home/prueba.txt  
+Para borrar un archivo.  
+Para borrar el archivo prueba.txt ubicado en /home, ejecutamos: $ rm /home/prueba.txt  
+
+#**sudo rmdir**  
+Para borrar un directorio.
 Este comando también presenta varias opciones. La opción -R borra todos los archivos y directorios de forma recursiva. Por otra parte, -f borra todo sin pedir confirmación.   
 
 sudo rmdir -R nombre del directorio
