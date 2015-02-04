@@ -4,6 +4,12 @@ Comandos de Linux
 Cuando queramos hacer cambios como administrador.  
 (Este comando nos confiere permisos de administrador del sistema y nos solicita siempre nuestra contraseña para poder ejecutarse. El comando sudo siempre inicia la linea de comandos a ejecutar.)  
 
+#**sudo su**
+Todo lo que hagamos a continuación será como super usuarios.  
+
+#**exit**  
+Para volver a ser usuario normal 
+
 #**apt**  
 (Advance Packagin Tool) es una herramienta de empaquetado de aplicaciones creada por el proyecto Debian, para simplificar la instalación y desinstalación de programas en Linux.
 
@@ -53,12 +59,6 @@ Reiniciar.
 #**sudo tasksel**  
 Instala tareas de paquetes.  
 Una que viene predefinida es la de servidor LAMP. tasksel nos ayuda a instalar un servidor LAMP en Ubuntu facilmente.  
-
-#**sudo su**
-Todo lo que hagamos a continuación será como super usuarios.  
-
-#**exit**  
-Para volver a ser usuario normal   
 
 #**cp**  
 copia un archivo o directorio origen a un archivo o directorio destino.  
