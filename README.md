@@ -32,6 +32,9 @@ Para desinstalar un programa.
 Para borrar un archivo.  
 Para borrar el archivo prueba.txt ubicado en /home, ejecutamos: $ rm /home/prueba.txt  
 
+#**sudo rm -rf pw**  
+para forzar el borrado de una carpeta que contiene archivos.
+
 #**sudo rmdir**  
 Para borrar un directorio.
 Este comando también presenta varias opciones. La opción -R borra todos los archivos y directorios de forma recursiva. Por otra parte, -f borra todo sin pedir confirmación.   
